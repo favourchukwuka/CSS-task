@@ -40,6 +40,7 @@ p{
     line-height: 1.5;
 }
 /*for mobile phones*/
+@media screen (max-width: 320px;) {
 .pp {
     display: block;
     grid-template-columns: 1fr;
@@ -62,11 +63,8 @@ p {
 }
 
 .text_div {
-    border: 2px solid red;
-    border-radius: 10px;
-    padding: 6px;
     height: auto;
-    align-content: center;
     line-height: 1.5;
+}
 }
 
