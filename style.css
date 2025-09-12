@@ -40,7 +40,7 @@ p{
     line-height: 1.5;
 }
 /*for mobile phones*/
-@media screen (min-width: 320px){
+@media (max-width: 768px) and (min-width: 320px) {
 .pp {
     display: block;
     grid-template-columns: 1fr;
